@@ -1,0 +1,18 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+    "waitFor": "onCreateCommand",
+    "onCreateCommand": "",
+    "updateContentCommand": "go build",
+    "postCreateCommand": "",
+    "postAttachCommand": "",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+            "golang.go",
+            "github.codespaces",
+            "github.copilot",
+            "github.copilot-labs"
+        ]
+      }
+    }
+  
